@@ -1,19 +1,20 @@
 {
-  "name": "AI Whiteboard Engine",
+  "name": "Smart Whiteboard",
   "short_name": "Whiteboard",
-  "description": "Professional drawing and annotation tool for specialists.",
-  "start_url": "/",
+  "start_url": "/smart-whiteboard/",
+  "scope": "/smart-whiteboard/",
   "display": "standalone",
-  "background_color": "#09090b",
-  "theme_color": "#00d2ff",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "description": "Smart Whiteboard Drawing App",
   "icons": [
     {
-      "src": "https://picsum.photos/seed/appicon/192/192",
+      "src": "/smart-whiteboard/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://picsum.photos/seed/appicon/512/512",
+      "src": "/smart-whiteboard/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

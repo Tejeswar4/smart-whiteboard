@@ -2,19 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
     <title>Smart Whiteboard PPT Annotator</title>
+
+    <!-- Correct manifest path for GitHub Pages repo -->
     <link rel="manifest" href="/smart-whiteboard/manifest.json" />
+
+    <!-- Theme color (required for TWA) -->
+    <meta name="theme-color" content="#4CAF50" />
+
+    <!-- iOS support -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="theme-color" content="#09090b" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
     <!-- PPTX rendering support -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
     <script type="module" crossorigin src="/smart-whiteboard/assets/index-D2nL3df2.js"></script>
     <link rel="stylesheet" crossorigin href="/smart-whiteboard/assets/index-5hI1OeZZ.css">
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- React entry -->
+
+    <!-- Service worker registration (required for Bubblewrap) -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register(
+            "/smart-whiteboard/sw.js"
+          );
+        });
+      }
+    </script>
   </body>
 </html>
