@@ -1,0 +1,6 @@
+{
+  "name": "Smart Whiteboard PPT Annotator",
+  "description": "A powerful web-based whiteboard that converts PPT/PPTX to PDF and allows high-precision annotations, slide navigation, and export features.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

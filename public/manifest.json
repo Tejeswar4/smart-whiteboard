@@ -1,0 +1,21 @@
+{
+  "name": "AI Whiteboard Engine",
+  "short_name": "Whiteboard",
+  "description": "Professional drawing and annotation tool for specialists.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09090b",
+  "theme_color": "#00d2ff",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/appicon/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/seed/appicon/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
