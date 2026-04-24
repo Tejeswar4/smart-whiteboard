@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.tejeswar4.twa",
+      "sha256_cert_fingerprints": [
+        "CB:7D:73:F8:83:DA:EA:55:CA:9E:41:E6:20:47:93:48:D2:A6:6E:C7:3F:C5:ED:FC:F4:5A:36:0E:D7:C1:B0:CD"
+      ]
+    }
+  }
+]
